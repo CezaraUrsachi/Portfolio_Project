@@ -13,14 +13,64 @@ h2 {
 header h2 {
     color: #CEC8FF; 
 }
+
+.header{
+    background-image: url('../media/interior.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    
+}
+.description h1{
+ color:#F97300 ;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #F97300;
+ background:#F97300;
+ color:#fff;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    background: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+  
+/* Add some content at the bottom of the video/page */
+
   
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-color: rgb(216, 216, 216);
     padding: 20px 0; 
 }
   
 .jumbotron {
-
+    margin: 0;
 }
   
 .row-content {
@@ -28,8 +78,26 @@ header h2 {
 }
   
 .navbar {
-    
+    background:#F97300;
 }
+
+.nav-link , .navbar-brand {
+    color: #f4f4f4; 
+    cursor: pointer;
+}
+
+.nav-link { 
+    margin-right: 1em !important;
+}
+
+.navbar-collapse { 
+    justify-content: flex-end;
+}
+
+.navbar-toggler {  
+    background:#F97300 !important;
+}
+
   
 a, a:hover {
     color: inherit;
